@@ -1,0 +1,16 @@
+// $bgBaseColor: #e5e5f7;
+// $bgStripeColor: #444cf7;
+// $bgStripeColorAlpha: #444cf777;
+
+$bgBaseColor: #dddddd;
+$bgStripeColor: #eeeeee;
+$bgStripeColorAlpha: #eeeeee 50%;
+
+body {
+    background-color: #e5e5f7;
+    opacity: 0.8;
+    background-size: 10px 10px;
+    background-image: repeating-linear-gradient(45deg, $bgBaseColor 0, $bgBaseColor 1px, $bgStripeColor 0, $bgStripeColor 50%);
+}
+
+

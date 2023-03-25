@@ -1,0 +1,24 @@
+--- 
+# Only the main Sass file needs front matter (the dashes are enough) 
+--- 
+@import "minima";
+@import "typography";
+@import "background-pattern";
+
+$pageTopMargin: 4em;
+
+
+main {
+    margin-top: $pageTopMargin;
+}
+
+h1 {
+    font-family: $headerFont;
+    font-size: $headerSize;
+}
+
+.portrait {
+    width: 250px;
+    height: 250px;
+    float: left;
+}
