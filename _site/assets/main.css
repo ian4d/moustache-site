@@ -200,6 +200,19 @@ body { background-color: #e5e5f7; opacity: 0.8; background-size: 10px 10px; back
 
 main { margin-top: 4em; }
 
-h1 { font-family: "Great Vibes"; font-size: 3em; }
+h1 { font-family: "Great Vibes"; font-size: 2.5em; }
 
-.portrait { width: 250px; height: 250px; float: left; }
+article { margin-bottom: 1em; text-indent: 2em; }
+
+.portrait { width: 250px; height: 250px; }
+
+.entry { margin-bottom: 2em; padding-bottom: 1em; }
+.entry .heading { padding: 1rem; font-family: "Great Vibes"; font-size: 2.5em; }
+.entry .info { display: flex; }
+.entry .info .column { width: 50%; padding: 1rem; }
+
+.centered { text-align: center; }
+
+.top-bordered { border-top-style: double; border-top-color: #00000055; }
+
+.bottom-bordered { border-bottom-style: double; border-bottom-color: #00000055; }
